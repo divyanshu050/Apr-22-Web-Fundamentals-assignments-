@@ -1,0 +1,91 @@
+<html>
+  <head> </head>
+  <title>Form Tutorial</title>
+  <body>
+    <h2>Registeration form</h2>
+    <form>
+      <div>
+        <label>User name</label>
+        <input id="" placeholder="Enter Your Name" size="50" />
+      </div>
+      <br />
+      <div>
+        <label>Password</label>
+        <input type="password" placeholder="Enter Password" />
+      </div>
+      <br />
+      <div>
+        <label>Address</label>
+        <textarea name="Address" id="" cols="15" rows="5" placeholder="Enter Your Current Address"></textarea>
+      </div>
+      <br />
+      <div>
+        <label>Enter Phone No.</label>
+        <input type="number" placeholder="enter phone number" />
+      </div>
+      <br />
+      <div>
+        <!-- <h2>Radio Button</h2> -->
+        <h3>Gender</h3>
+        <input type="radio" name="Gender" />
+        <label>Male</label>
+        <input type="radio" name="Gender" />
+        <label>Female</label>
+      </div>
+      <br />
+
+      <br />
+      <div>
+        <!-- <label>datalist</label> -->
+        <label>Courses</label>
+        <input type="text" list="datalist" />
+        <datalist id="datalist">
+          <option>HTML</option>
+          <option>CSS</option>
+          <option>JS</option>
+          <option>Python</option>
+          <option>JAVA</option>
+        </datalist>
+      </div>
+      <br />
+      <div>
+        <!-- Checkbox -->
+        <label>languages you know</label>
+        <input type="checkbox" />
+        <label>Python</label>
+        <input type="checkbox" />
+        <label>Java</label>
+        <input type="checkbox" />
+        <label>Ruby</label>
+        <input type="checkbox" />
+        <label>C</label>
+        <input type="checkbox" />
+        <label>C++</label>
+        <input type="checkbox" />
+        <label>HTML</label>
+        <input type="checkbox" />
+        <label>CSS</label>
+      </div>
+      <br />
+      <div>
+        <label>Age Group</label>
+        <select name="Age Group">
+          <option value="8-12">8-12</option>
+          <option value="12-15">12-15</option>
+          <option value="15-18">15-18</option>
+          <option value="18+">18+</option>
+        </select>
+      </div>
+      <br />
+
+      <div>
+        <label>Chooose your resume</label>
+        <input type="file" />
+      </div>
+      <br />
+      <div>
+        <button>Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
